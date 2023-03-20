@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  padding: 10px;
+  float: left;
+}
+
+ul li {
+  display: inline;
+  /* float: right; */
+  margin-right: 20px;
+}
+
+a:link,
+a:visited {
+  color: seashell;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 1400px;
+}
+
+#mission {
+  height: 700px;
+  background-image: url('../images/img-mission-background.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission div {
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  flex-basis: 100%;
+}
+
+#featured-tea {
+  max-width: 83%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  /* margin: 10px; */
+}
+
+.product-img {
+  height: 200px;
+  width: 300px;
+}
+
+#locations {
+  /* height: 500px; */
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 40px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+#locations > h2 {
+  margin-top: 20px;
+}
+
+.all-locations {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.specific-location {
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  /* line-height: 2; */
+}
+
+.contact {
+  height: 200px;
+}
+
+h2 + h5 {
+  margin-top: 50px;
+}
+
+footer > h4 {
+  text-align: left;
+  margin-left: 20px;
+}
